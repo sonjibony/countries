@@ -1,0 +1,18 @@
+#country-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.country{
+    border: 2px solid navy;
+    padding: 20px;
+    border-radius: 10px;
+}
+button{
+    background-color: navy;
+    padding:10px 12px ;
+    border: none;
+    border-radius:5px ;
+    color: white;
+}
